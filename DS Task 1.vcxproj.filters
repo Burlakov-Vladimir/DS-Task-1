@@ -18,6 +18,9 @@
     <ClCompile Include="DS Task 1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="my_string.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
@@ -26,5 +29,10 @@
     <Text Include="output.txt">
       <Filter>Source Files</Filter>
     </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="my_string.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

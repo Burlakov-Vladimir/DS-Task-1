@@ -1,3 +1,9 @@
-Count of e in 1 string is 2
-Count of e in 2 string is 1
-Count of e in 3 string is 1
+Symbol 'o' has 1th position in line 1
+Symbol 'o' has 2th position in line 1
+Count of 'o' in 1th line is 2
+
+Symbol 'o' has 1th position in line 2
+Count of 'o' in 2th line is 1
+
+Count of 'o' in 3th line is 0
+

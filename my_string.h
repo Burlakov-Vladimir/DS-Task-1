@@ -1,26 +1,19 @@
 //my_string_h
 #pragma once
 
-#include <iostream>
-
 struct my_string
 {
    my_string();
-   my_string(char const *str);
 
    ~my_string();
 
-   my_string(my_string const &otherStr);
-   
-   my_string &operator=(my_string const &rhs);
-
    char &operator[](size_t index);
-   void push_back(char data);
+   
+   size_t size() const;
 
    void extend_capacity();
+   void push_back(char data);
 
-   char const *data() const;
-   size_t size() const;
    friend std::istream &operator>>(std::istream &in, my_string &rhs);
 
 private:

@@ -7,7 +7,7 @@
 
 my_string::my_string()
 {
-   data_ = (char *)malloc(1 * sizeof(char));
+   data_ = reinterpret_cast<char *>(malloc(1 * sizeof(char)));
    size_ = 0;
    data_[size_] = '\0';
    capacity_ = 0;
@@ -40,7 +40,7 @@ void my_string::extend_capacity()
    }
 
    capacity_ *= 2;
-   data_ = (char *)realloc(data_, capacity_ * sizeof(char));
+   data_ = reinterpret_cast<char *>(realloc(data_, capacity_ * sizeof(char)));
 }
 
 

@@ -1,9 +1,5 @@
-Symbol 'o' has 1th position in line 1
-Symbol 'o' has 2th position in line 1
-Count of 'o' in 1th line is 2
+Count of 'w' in 1th line is 0
 
-Symbol 'o' has 1th position in line 2
-Count of 'o' in 2th line is 1
-
-Count of 'o' in 3th line is 0
+Symbol 'w' has 1th position in line 2
+Count of 'w' in 2th line is 1
 

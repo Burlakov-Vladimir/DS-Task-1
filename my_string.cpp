@@ -40,7 +40,7 @@ void my_string::extend_capacity()
    }
 
    capacity_ *= 2;
-   data_ = reinterpret_cast<char *>(realloc(data_, capacity_ * sizeof(char)));
+   data_ = reinterpret_cast<char *>(realloc(data_, (capacity_ + 1) * sizeof(char)));
 }
 
 
@@ -50,6 +50,7 @@ void my_string::push_back(char data)
       extend_capacity();
 
    data_[size_] = data;
+   data_[size_ + 1] = '\0';
    size_++;
 }
 
